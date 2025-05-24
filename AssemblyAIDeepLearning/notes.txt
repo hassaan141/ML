@@ -1,0 +1,19 @@
+Technique based on neural networks that have the capacity to learn complex patterns directly from the data
+Nueral Netwrorks: Layers of data stacked with each other, 
+1. Input Layer: Input
+2. Hidden Layer
+3. Output Layer: Prediction
+
+consists of neuron, more hidden layers means the deeper it is
+
+machine learning, learns how to do a task directly from the data. Deep learning is one of the Techniques inside of deep learning. 
+
+Traditional ML, we need to manually extract the features from the data, deep learning does not need that. 
+
+In traditional ML, To train a model to classify between a cat and a dog, we need to extract features like point ears , the nose, the color, the pose. In deep learning, it will itself understand the pattern and the features between the two photos. The cost is that you need much more data than tranditional machine learning algorhthms. Need a stronger machine and a longer time. 
+
+One other difference is that they can capture pattern, a task that you can do with Deep learning and not traditional ML is something like NLP, we might not always know what type of features to extract, but deep learning does it well. 
+
+/////////////////////////////////////////////////
+
+Batch normalization

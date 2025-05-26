@@ -1,0 +1,34 @@
+A datablock gives it all the details to know the computer vision models
+
+dalle2 came out in 2022 to generate pictures
+
+Neural networks do all the hard work, we dont give it features, we tell it to learn features.
+
+A feature is something that your model can learn from, ex: size of a house input with the price output, ur size is your feature
+
+Can start with a random NN, then it can try to classify based off of the features.
+
+The deeper you get, the more sophisticated the feature detection gets.
+1. Angles, edges, circles,
+2. Peoples, trees, flowers, animals (This is done by feature detection the flower edges, circles, stems)
+3. types of flowers, types of dogs (done by classsifying the dogs nose, the dogs ears etc)
+
+All of this is learned by the NN, not hand coded. 
+
+fastai is a library on top of pytorch, use less code bc its better
+
+Datablock, there are 5 things that it can be split in
+1. input
+2. output
+3. A validation set, putting out some data so we can validate our data
+4. Returns a parent folder in the path
+5. Need all the input ot bee the same size, so resize ex: 192x192
+
+will feed a batch of data, a group of data that will be passed in the model.
+
+A learner is how it will train the data, you have to pass it 
+1. The data loader object, dls
+2. The model which is the neural network function that is being passed in ex: resnet18 (someone has made these weights available for us) 
+3.  the fine_tune method which fine_tunes the data
+
+Then we can call .predict on it. 

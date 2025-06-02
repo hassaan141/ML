@@ -1,0 +1,29 @@
+N.N
+
+Specific values are diifferent between the different threes
+
+Neural Network that can learn to recognize hand written digits
+
+It can recognize hand written digits
+
+Neuron is a thing that holds a number between 0 and 1, in a 28x28 block, each neuron has a value from 0 - 1, 0 for black pixels and 1 for white pixels.
+
+Can also be treated as a function, which takes paramters from all the previous netiors and spits out a number between 0 - 1
+
+Each neuron is lit up when it is a high number between 0 - 1
+
+The output is the output layer, to know which number it most likely is. The brightest is the number
+
+there are 2 hidden layers with 16 layers
+
+Each time you draw a number, it causes a specific pattern to light up in the next layer, which gives it too the ouput layer
+
+Feature recognition, 8 has 2 loops, 9 has a loop and a stick. The second last layer should be able to recognize this, and should be able to knnow which combination of these features can be the number. 
+
+To recongize a loop, you can break it down, so it can be 4 semi cirlces, and a 1 can be three sticks, 9 can break down into 8-10 features, and those light up a cirlce and a stick and that lights up a 9. 
+
+This is helpful with contour detection. 
+
+Each neuron which from the outer layer when connected to the inside layer has weights, so if 10 inputs, each of those 10 have a specific weight to 1 neuron inside. Now you can tweak the knobs which are the weights to get what you want, 
+
+pixels -> edges -> Patterns -> Numbers
